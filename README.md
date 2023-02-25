@@ -1,4 +1,4 @@
-## About learn-nim-exercises-chpater-container
+## About learn-nim-exercises-chapter-container
 
 This repository was built with the goal to learn Nim and these exercises are from chapter Loops of [Nim Tutorial](https://narimiran.github.io/nim-basics/).
 
