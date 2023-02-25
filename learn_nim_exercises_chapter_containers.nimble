@@ -4,7 +4,7 @@
 
 version       = "0.1.0"
 author        = "epilif3sotnas <filipesantos1999@hotmail.com>"
-description   = "Build a simple REST API in Nim."
+description   = "Learn Nim with Nim tutorials - exercises from chapter Containers."
 license       = "Apache-2.0"
 
 
