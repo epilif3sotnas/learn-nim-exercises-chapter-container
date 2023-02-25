@@ -48,20 +48,20 @@ proc exercise_3*(interval: array[2,int]) =
   if len(interval) != 2:
     return
 
-  var longestLength = 0
-  var startingNumber = 1
+  var longest_length = 0
+  var starting_number = 1
 
   for num in countup(interval[0], interval[1]):
     let current_length = get_collatz_lenght(num)
 
-    if current_length < longestLength:
+    if current_length < longest_length:
       continue
 
-    startingNumber = num
-    longestLength = current_length
+    starting_number = num
+    longest_length = current_length
 
-  echo "Number: " & $startingNumber
-  echo "Length: " & $longestLength
+  echo "Number: " & $starting_number
+  echo "Length: " & $longest_length
 
 
 proc main() =
